@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CET Pravesh AI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f4f8;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0F6E56, #185FA5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 { font-size: 28px; }
+        header p  { font-size: 14px; opacity: 0.8; margin-top: 4px; }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .form-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            margin-bottom: 24px;
+        }
+
+        .form-card h2 {
+            color: #0F6E56;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 6px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1.5px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border 0.2s;
+        }
+
+        input:focus, select:focus {
+            border-color: #0F6E56;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #0F6E56, #185FA5);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: opacity 0.2s;
+        }
+
+        button:hover { opacity: 0.9; }
+        button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+        .results-section { display: none; }
+
+        .results-section h2 {
+            color: #0F6E56;
+            margin-bottom: 16px;
+            font-size: 18px;
+        }
+
+        .college-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            border-left: 4px solid #0F6E56;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .college-name {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+        }
+
+        .college-branch {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .college-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .stat {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #888;
+            margin-bottom: 4px;
+        }
+
+        .stat-value {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+
+        .score-bar {
+            background: #f0f0f0;
+            border-radius: 20px;
+            height: 8px;
+            overflow: hidden;
+        }
+
+        .score-fill {
+            height: 100%;
+            border-radius: 20px;
+            background: linear-gradient(90deg, #0F6E56, #185FA5);
+            transition: width 0.8s ease;
+        }
+
+        .score-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 4px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            display: none;
+        }
+
+        .error-msg {
+            background: #fff5f5;
+            border: 1px solid #ffcccc;
+            border-radius: 8px;
+            padding: 16px;
+            color: #cc0000;
+            display: none;
+            margin-bottom: 16px;
+        }
+
+        .rank-badge {
+            display: inline-block;
+            background: #0F6E56;
+            color: white;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎓 CET Pravesh AI</h1>
+    <p>AI-based College Recommendation for MHT-CET Students</p>
+</header>
+
+<div class="container">
+
+    <!-- Form -->
+    <div class="form-card">
+        <h2>📋 Apni Details Bharo</h2>
+
+        <div class="form-group">
+            <label>Tera Percentile</label>
+            <input type="number" id="percentile" 
+                   placeholder="e.g. 95.5" min="0" max="100" step="0.1">
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Branch</label>
+                <select id="branch">
+                    <option value="">Select Branch</option>
+                    <option value="Computer Engineering">Computer Engineering</option>
+                    <option value="Information Technology">Information Technology</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>City Preference</label>
+                <select id="city">
+                    <option value="">Any City</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Navi Mumbai">Navi Mumbai</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Max Fees (₹)</label>
+                <input type="number" id="max_fees" 
+                       placeholder="e.g. 200000 (optional)">
+            </div>
+
+            <div class="form-group">
+                <label>Priority</label>
+                <select id="priority">
+                    <option value="placement">Placement</option>
+                    <option value="fees">Low Fees</option>
+                    <option value="balanced">Balanced</option>
+                </select>
+            </div>
+        </div>
+
+        <button onclick="getRecommendations()" id="btn">
+            🔍 Colleges Dhundho
+        </button>
+    </div>
+
+    <!-- Loading -->
+    <div class="loading" id="loading">
+        <p>⏳ AI colleges dhundh raha hai...</p>
+    </div>
+
+    <!-- Error -->
+    <div class="error-msg" id="error"></div>
+
+    <!-- Results -->
+    <div class="results-section" id="results">
+        <h2 id="results-title">🎯 Recommended Colleges</h2>
+        <div id="colleges-list"></div>
+    </div>
+
+</div>
+
+<script>
+async function getRecommendations() {
+    const percentile = document.getElementById('percentile').value;
+    const branch     = document.getElementById('branch').value;
+    const city       = document.getElementById('city').value;
+    const max_fees   = document.getElementById('max_fees').value;
+    const priority   = document.getElementById('priority').value;
+
+    // Validation
+    if (!percentile || !branch) {
+        showError('Percentile aur Branch zaroori hai!');
+        return;
+    }
+
+    // Loading show karo
+    showLoading(true);
+    hideError();
+    document.getElementById('results').style.display = 'none';
+
+    try {
+        const response = await fetch('http://localhost:3000/recommend', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                percentile: parseFloat(percentile),
+                branch,
+                city: city || null,
+                max_fees: max_fees ? parseInt(max_fees) : null,
+                priority
+            })
+        });
+
+        const data = await response.json();
+        showLoading(false);
+
+        if (data.error) {
+            showError(data.error);
+            return;
+        }
+
+        displayResults(data.colleges, percentile, branch);
+
+    } catch (err) {
+        showLoading(false);
+        showError('Server se connect nahi ho pa raha — server chalu hai?');
+    }
+}
+
+function displayResults(colleges, percentile, branch) {
+    const list = document.getElementById('colleges-list');
+    const title = document.getElementById('results-title');
+
+    title.textContent = `🎯 ${colleges.length} Colleges Mile — ${branch}`;
+    list.innerHTML = '';
+
+    colleges.forEach((college, index) => {
+        const card = document.createElement('div');
+        card.className = 'college-card';
+
+        const scorePercent = Math.round(college.score * 100);
+
+        card.innerHTML = `
+            <div class="rank-badge">Rank #${index + 1}</div>
+            <div class="college-name">${college.college_name}</div>
+            <div class="college-branch">${college.branch} • ${college.city}</div>
+
+            <div class="college-stats">
+                <div class="stat">
+                    <div class="stat-label">Cutoff 2023</div>
+                    <div class="stat-value">${college.cutoff_2023}%</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Fees</div>
+                    <div class="stat-value">₹${(college.fees/100000).toFixed(1)}L</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Avg Package</div>
+                    <div class="stat-value">₹${(college.avg_package/100000).toFixed(1)}L</div>
+                </div>
+            </div>
+
+            <div class="score-label">
+                <span>AI Match Score</span>
+                <span>${scorePercent}%</span>
+            </div>
+            <div class="score-bar">
+                <div class="score-fill" style="width: ${scorePercent}%"></div>
+            </div>
+        `;
+
+        list.appendChild(card);
+    });
+
+    document.getElementById('results').style.display = 'block';
+}
+
+function showLoading(show) {
+    document.getElementById('loading').style.display = show ? 'block' : 'none';
+    document.getElementById('btn').disabled = show;
+}
+
+function showError(msg) {
+    const el = document.getElementById('error');
+    el.textContent = msg;
+    el.style.display = 'block';
+}
+
+function hideError() {
+    document.getElementById('error').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
