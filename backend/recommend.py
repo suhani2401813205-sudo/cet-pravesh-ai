@@ -3,7 +3,9 @@ import json
 import sys
 
 # Data load karo
-df = pd.read_csv('./data/colleges.csv')
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+df = pd.read_csv(os.path.join(BASE_DIR, 'data', 'colleges.csv'))
 
 def get_recommendations(percentile, branch, 
                          city=None, max_fees=None, 
