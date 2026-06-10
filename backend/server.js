@@ -32,7 +32,8 @@ app.post('/recommend', (req, res) => {
         priority || 'placement'
     ];
 
-   const python = spawn('python3', args);
+   const pythonCmd = process.platform === 'win32' ? 'py' : 'python3';
+const python = spawn(pythonCmd, args);
 
     let result = '';
     let error = '';
