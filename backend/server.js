@@ -32,7 +32,7 @@ app.post('/recommend', (req, res) => {
         priority || 'placement'
     ];
 
-    const python = spawn('python', args);
+   const python = spawn('python3', args);
 
     let result = '';
     let error = '';
