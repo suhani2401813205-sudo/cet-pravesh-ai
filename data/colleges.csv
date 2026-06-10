@@ -1,21 +1,351 @@
 college_name,branch,city,cutoff_2023,cutoff_2022,cutoff_2021,fees,avg_package,hostel,rating
-VJTI Mumbai,Computer Engineering,Mumbai,98.5,97.8,97.2,125000,800000,Yes,4.8
-VJTI Mumbai,Information Technology,Mumbai,97.2,96.5,96.0,125000,750000,Yes,4.7
-SPIT Mumbai,Computer Engineering,Mumbai,95.8,95.2,94.8,180000,700000,No,4.5
-SPIT Mumbai,Information Technology,Mumbai,94.5,93.8,93.2,180000,650000,No,4.4
-DJ Sanghvi Mumbai,Computer Engineering,Mumbai,94.2,93.5,92.8,220000,720000,No,4.4
-DJ Sanghvi Mumbai,Information Technology,Mumbai,93.0,92.2,91.5,220000,680000,No,4.3
-COEP Pune,Computer Engineering,Pune,97.8,97.0,96.5,95000,850000,Yes,4.8
-COEP Pune,Information Technology,Pune,96.5,95.8,95.0,95000,800000,Yes,4.7
-VIT Pune,Computer Engineering,Pune,92.5,91.8,91.0,195000,620000,Yes,4.2
-VIT Pune,Information Technology,Pune,91.2,90.5,89.8,195000,580000,Yes,4.1
-PICT Pune,Computer Engineering,Pune,93.8,93.0,92.3,165000,650000,No,4.3
-PICT Pune,Information Technology,Pune,92.5,91.8,91.0,165000,620000,No,4.2
-GCOE Nagpur,Computer Engineering,Nagpur,88.5,87.8,87.0,75000,450000,Yes,4.0
-GCOE Nagpur,Information Technology,Nagpur,87.2,86.5,85.8,75000,420000,Yes,3.9
-RAIT Navi Mumbai,Computer Engineering,Navi Mumbai,89.5,88.8,88.0,165000,520000,No,4.0
-RAIT Navi Mumbai,Information Technology,Navi Mumbai,88.2,87.5,86.8,165000,490000,No,3.9
-Cummins Pune,Computer Engineering,Pune,91.0,90.2,89.5,175000,580000,Yes,4.1
-PCCOE Pune,Computer Engineering,Pune,90.5,89.8,89.0,155000,550000,Yes,4.0
+VJTI Mumbai,Computer Engineering,Mumbai,98.5,97.7,97.0,125000,900000,Yes,4.8
+VJTI Mumbai,Information Technology,Mumbai,97.0,96.2,95.5,125000,870000,Yes,4.8
+VJTI Mumbai,AIDS,Mumbai,98.0,97.2,96.5,135000,920000,Yes,4.8
+VJTI Mumbai,AIML,Mumbai,97.7,96.9,96.2,135000,915000,Yes,4.8
+VJTI Mumbai,Electronics & Telecom,Mumbai,96.0,95.2,94.5,115000,850000,Yes,4.8
+VJTI Mumbai,Mechanical Engineering,Mumbai,94.5,93.7,93.0,110000,820000,Yes,4.8
+VJTI Mumbai,Electrical Engineering,Mumbai,95.0,94.2,93.5,115000,830000,Yes,4.8
+SPIT Mumbai,Computer Engineering,Mumbai,95.8,95.0,94.3,180000,700000,No,4.5
+SPIT Mumbai,Information Technology,Mumbai,94.3,93.5,92.8,180000,670000,No,4.5
+SPIT Mumbai,AIDS,Mumbai,95.3,94.5,93.8,190000,720000,No,4.5
+SPIT Mumbai,AIML,Mumbai,95.0,94.2,93.5,190000,715000,No,4.5
+SPIT Mumbai,Electronics & Telecom,Mumbai,93.3,92.5,91.8,170000,650000,No,4.5
+SPIT Mumbai,Mechanical Engineering,Mumbai,91.8,91.0,90.3,165000,620000,No,4.5
+SPIT Mumbai,Electrical Engineering,Mumbai,92.3,91.5,90.8,170000,630000,No,4.5
+DJ Sanghvi Mumbai,Computer Engineering,Mumbai,94.2,93.4,92.7,220000,720000,No,4.4
+DJ Sanghvi Mumbai,Information Technology,Mumbai,92.7,91.9,91.2,220000,690000,No,4.4
+DJ Sanghvi Mumbai,AIDS,Mumbai,93.7,92.9,92.2,230000,740000,No,4.4
+DJ Sanghvi Mumbai,AIML,Mumbai,93.4,92.6,91.9,230000,735000,No,4.4
+DJ Sanghvi Mumbai,Electronics & Telecom,Mumbai,91.7,90.9,90.2,210000,670000,No,4.4
+DJ Sanghvi Mumbai,Mechanical Engineering,Mumbai,90.2,89.4,88.7,205000,640000,No,4.4
+DJ Sanghvi Mumbai,Electrical Engineering,Mumbai,90.7,89.9,89.2,210000,650000,No,4.4
 KJ Somaiya Mumbai,Computer Engineering,Mumbai,92.8,92.0,91.3,285000,650000,No,4.2
-KJ Somaiya Mumbai,Information Technology,Mumbai,91.5,90.8,90.0,285000,620000,No,4.1
+KJ Somaiya Mumbai,Information Technology,Mumbai,91.3,90.5,89.8,285000,620000,No,4.2
+KJ Somaiya Mumbai,AIDS,Mumbai,92.3,91.5,90.8,295000,670000,No,4.2
+KJ Somaiya Mumbai,AIML,Mumbai,92.0,91.2,90.5,295000,665000,No,4.2
+KJ Somaiya Mumbai,Electronics & Telecom,Mumbai,90.3,89.5,88.8,275000,600000,No,4.2
+KJ Somaiya Mumbai,Mechanical Engineering,Mumbai,88.8,88.0,87.3,270000,570000,No,4.2
+KJ Somaiya Mumbai,Electrical Engineering,Mumbai,89.3,88.5,87.8,275000,580000,No,4.2
+RAIT Navi Mumbai,Computer Engineering,Navi Mumbai,89.5,88.7,88.0,165000,520000,No,4.0
+RAIT Navi Mumbai,Information Technology,Navi Mumbai,88.0,87.2,86.5,165000,490000,No,4.0
+RAIT Navi Mumbai,AIDS,Navi Mumbai,89.0,88.2,87.5,175000,540000,No,4.0
+RAIT Navi Mumbai,AIML,Navi Mumbai,88.7,87.9,87.2,175000,535000,No,4.0
+RAIT Navi Mumbai,Electronics & Telecom,Navi Mumbai,87.0,86.2,85.5,155000,470000,No,4.0
+RAIT Navi Mumbai,Mechanical Engineering,Navi Mumbai,85.5,84.7,84.0,150000,440000,No,4.0
+RAIT Navi Mumbai,Electrical Engineering,Navi Mumbai,86.0,85.2,84.5,155000,450000,No,4.0
+Thadomal Shahani Mumbai,Computer Engineering,Mumbai,91.0,90.2,89.5,195000,580000,No,4.1
+Thadomal Shahani Mumbai,Information Technology,Mumbai,89.5,88.7,88.0,195000,550000,No,4.1
+Thadomal Shahani Mumbai,AIDS,Mumbai,90.5,89.7,89.0,205000,600000,No,4.1
+Thadomal Shahani Mumbai,AIML,Mumbai,90.2,89.4,88.7,205000,595000,No,4.1
+Thadomal Shahani Mumbai,Electronics & Telecom,Mumbai,88.5,87.7,87.0,185000,530000,No,4.1
+Thadomal Shahani Mumbai,Mechanical Engineering,Mumbai,87.0,86.2,85.5,180000,500000,No,4.1
+Thadomal Shahani Mumbai,Electrical Engineering,Mumbai,87.5,86.7,86.0,185000,510000,No,4.1
+Fr CRCE Mumbai,Computer Engineering,Mumbai,90.5,89.7,89.0,210000,560000,No,4.0
+Fr CRCE Mumbai,Information Technology,Mumbai,89.0,88.2,87.5,210000,530000,No,4.0
+Fr CRCE Mumbai,AIDS,Mumbai,90.0,89.2,88.5,220000,580000,No,4.0
+Fr CRCE Mumbai,AIML,Mumbai,89.7,88.9,88.2,220000,575000,No,4.0
+Fr CRCE Mumbai,Electronics & Telecom,Mumbai,88.0,87.2,86.5,200000,510000,No,4.0
+Fr CRCE Mumbai,Mechanical Engineering,Mumbai,86.5,85.7,85.0,195000,480000,No,4.0
+Fr CRCE Mumbai,Electrical Engineering,Mumbai,87.0,86.2,85.5,200000,490000,No,4.0
+SAKEC Mumbai,Computer Engineering,Mumbai,88.5,87.7,87.0,175000,500000,No,3.9
+SAKEC Mumbai,Information Technology,Mumbai,87.0,86.2,85.5,175000,470000,No,3.9
+SAKEC Mumbai,AIDS,Mumbai,88.0,87.2,86.5,185000,520000,No,3.9
+SAKEC Mumbai,AIML,Mumbai,87.7,86.9,86.2,185000,515000,No,3.9
+SAKEC Mumbai,Electronics & Telecom,Mumbai,86.0,85.2,84.5,165000,450000,No,3.9
+SAKEC Mumbai,Mechanical Engineering,Mumbai,84.5,83.7,83.0,160000,420000,No,3.9
+SAKEC Mumbai,Electrical Engineering,Mumbai,85.0,84.2,83.5,165000,430000,No,3.9
+KJSCE Mumbai,Computer Engineering,Mumbai,87.0,86.2,85.5,230000,480000,No,3.8
+KJSCE Mumbai,Information Technology,Mumbai,85.5,84.7,84.0,230000,450000,No,3.8
+KJSCE Mumbai,AIDS,Mumbai,86.5,85.7,85.0,240000,500000,No,3.8
+KJSCE Mumbai,AIML,Mumbai,86.2,85.4,84.7,240000,495000,No,3.8
+KJSCE Mumbai,Electronics & Telecom,Mumbai,84.5,83.7,83.0,220000,430000,No,3.8
+KJSCE Mumbai,Mechanical Engineering,Mumbai,83.0,82.2,81.5,215000,400000,No,3.8
+KJSCE Mumbai,Electrical Engineering,Mumbai,83.5,82.7,82.0,220000,410000,No,3.8
+Vidyalankar Mumbai,Computer Engineering,Mumbai,85.5,84.7,84.0,160000,460000,No,3.7
+Vidyalankar Mumbai,Information Technology,Mumbai,84.0,83.2,82.5,160000,430000,No,3.7
+Vidyalankar Mumbai,Electronics & Telecom,Mumbai,83.0,82.2,81.5,150000,410000,No,3.7
+Vidyalankar Mumbai,Mechanical Engineering,Mumbai,81.5,80.7,80.0,145000,380000,No,3.7
+Vidyalankar Mumbai,Electrical Engineering,Mumbai,82.0,81.2,80.5,150000,390000,No,3.7
+Atharva Mumbai,Computer Engineering,Mumbai,84.0,83.2,82.5,155000,440000,No,3.7
+Atharva Mumbai,Information Technology,Mumbai,82.5,81.7,81.0,155000,410000,No,3.7
+Atharva Mumbai,Electronics & Telecom,Mumbai,81.5,80.7,80.0,145000,390000,No,3.7
+Atharva Mumbai,Mechanical Engineering,Mumbai,80.0,79.2,78.5,140000,360000,No,3.7
+Atharva Mumbai,Electrical Engineering,Mumbai,80.5,79.7,79.0,145000,370000,No,3.7
+DYPE Mumbai,Computer Engineering,Mumbai,82.5,81.7,81.0,145000,420000,No,3.6
+DYPE Mumbai,Information Technology,Mumbai,81.0,80.2,79.5,145000,390000,No,3.6
+DYPE Mumbai,Electronics & Telecom,Mumbai,80.0,79.2,78.5,135000,370000,No,3.6
+DYPE Mumbai,Mechanical Engineering,Mumbai,78.5,77.7,77.0,130000,340000,No,3.6
+DYPE Mumbai,Electrical Engineering,Mumbai,79.0,78.2,77.5,135000,350000,No,3.6
+Thakur Mumbai,Computer Engineering,Mumbai,86.0,85.2,84.5,200000,490000,No,3.8
+Thakur Mumbai,Information Technology,Mumbai,84.5,83.7,83.0,200000,460000,No,3.8
+Thakur Mumbai,AIDS,Mumbai,85.5,84.7,84.0,210000,510000,No,3.8
+Thakur Mumbai,AIML,Mumbai,85.2,84.4,83.7,210000,505000,No,3.8
+Thakur Mumbai,Electronics & Telecom,Mumbai,83.5,82.7,82.0,190000,440000,No,3.8
+Thakur Mumbai,Mechanical Engineering,Mumbai,82.0,81.2,80.5,185000,410000,No,3.8
+Thakur Mumbai,Electrical Engineering,Mumbai,82.5,81.7,81.0,190000,420000,No,3.8
+MGM Mumbai,Computer Engineering,Navi Mumbai,83.0,82.2,81.5,170000,430000,Yes,3.7
+MGM Mumbai,Information Technology,Navi Mumbai,81.5,80.7,80.0,170000,400000,Yes,3.7
+MGM Mumbai,Electronics & Telecom,Navi Mumbai,80.5,79.7,79.0,160000,380000,Yes,3.7
+MGM Mumbai,Mechanical Engineering,Navi Mumbai,79.0,78.2,77.5,155000,350000,Yes,3.7
+MGM Mumbai,Electrical Engineering,Navi Mumbai,79.5,78.7,78.0,160000,360000,Yes,3.7
+SIES Mumbai,Computer Engineering,Navi Mumbai,84.5,83.7,83.0,175000,450000,No,3.8
+SIES Mumbai,Information Technology,Navi Mumbai,83.0,82.2,81.5,175000,420000,No,3.8
+SIES Mumbai,AIDS,Navi Mumbai,84.0,83.2,82.5,185000,470000,No,3.8
+SIES Mumbai,AIML,Navi Mumbai,83.7,82.9,82.2,185000,465000,No,3.8
+SIES Mumbai,Electronics & Telecom,Navi Mumbai,82.0,81.2,80.5,165000,400000,No,3.8
+SIES Mumbai,Mechanical Engineering,Navi Mumbai,80.5,79.7,79.0,160000,370000,No,3.8
+SIES Mumbai,Electrical Engineering,Navi Mumbai,81.0,80.2,79.5,165000,380000,No,3.8
+COEP Pune,Computer Engineering,Pune,97.8,97.0,96.3,95000,850000,Yes,4.8
+COEP Pune,Information Technology,Pune,96.3,95.5,94.8,95000,820000,Yes,4.8
+COEP Pune,AIDS,Pune,97.3,96.5,95.8,105000,870000,Yes,4.8
+COEP Pune,AIML,Pune,97.0,96.2,95.5,105000,865000,Yes,4.8
+COEP Pune,Electronics & Telecom,Pune,95.3,94.5,93.8,85000,800000,Yes,4.8
+COEP Pune,Mechanical Engineering,Pune,93.8,93.0,92.3,80000,770000,Yes,4.8
+COEP Pune,Civil Engineering,Pune,92.8,92.0,91.3,80000,750000,Yes,4.8
+COEP Pune,Electrical Engineering,Pune,94.3,93.5,92.8,85000,780000,Yes,4.8
+VIT Pune,Computer Engineering,Pune,92.5,91.7,91.0,195000,620000,Yes,4.2
+VIT Pune,Information Technology,Pune,91.0,90.2,89.5,195000,590000,Yes,4.2
+VIT Pune,AIDS,Pune,92.0,91.2,90.5,205000,640000,Yes,4.2
+VIT Pune,AIML,Pune,91.7,90.9,90.2,205000,635000,Yes,4.2
+VIT Pune,Electronics & Telecom,Pune,90.0,89.2,88.5,185000,570000,Yes,4.2
+VIT Pune,Mechanical Engineering,Pune,88.5,87.7,87.0,180000,540000,Yes,4.2
+VIT Pune,Civil Engineering,Pune,87.5,86.7,86.0,180000,520000,Yes,4.2
+VIT Pune,Electrical Engineering,Pune,89.0,88.2,87.5,185000,550000,Yes,4.2
+PICT Pune,Computer Engineering,Pune,93.8,93.0,92.3,165000,650000,No,4.3
+PICT Pune,Information Technology,Pune,92.3,91.5,90.8,165000,620000,No,4.3
+PICT Pune,AIDS,Pune,93.3,92.5,91.8,175000,670000,No,4.3
+PICT Pune,AIML,Pune,93.0,92.2,91.5,175000,665000,No,4.3
+PICT Pune,Electronics & Telecom,Pune,91.3,90.5,89.8,155000,600000,No,4.3
+PICT Pune,Mechanical Engineering,Pune,89.8,89.0,88.3,150000,570000,No,4.3
+PICT Pune,Civil Engineering,Pune,88.8,88.0,87.3,150000,550000,No,4.3
+PICT Pune,Electrical Engineering,Pune,90.3,89.5,88.8,155000,580000,No,4.3
+Cummins Pune,Computer Engineering,Pune,91.0,90.2,89.5,175000,580000,Yes,4.1
+Cummins Pune,Information Technology,Pune,89.5,88.7,88.0,175000,550000,Yes,4.1
+Cummins Pune,AIDS,Pune,90.5,89.7,89.0,185000,600000,Yes,4.1
+Cummins Pune,AIML,Pune,90.2,89.4,88.7,185000,595000,Yes,4.1
+Cummins Pune,Electronics & Telecom,Pune,88.5,87.7,87.0,165000,530000,Yes,4.1
+Cummins Pune,Mechanical Engineering,Pune,87.0,86.2,85.5,160000,500000,Yes,4.1
+Cummins Pune,Civil Engineering,Pune,86.0,85.2,84.5,160000,480000,Yes,4.1
+Cummins Pune,Electrical Engineering,Pune,87.5,86.7,86.0,165000,510000,Yes,4.1
+PCCOE Pune,Computer Engineering,Pune,90.5,89.7,89.0,155000,550000,Yes,4.0
+PCCOE Pune,Information Technology,Pune,89.0,88.2,87.5,155000,520000,Yes,4.0
+PCCOE Pune,AIDS,Pune,90.0,89.2,88.5,165000,570000,Yes,4.0
+PCCOE Pune,AIML,Pune,89.7,88.9,88.2,165000,565000,Yes,4.0
+PCCOE Pune,Electronics & Telecom,Pune,88.0,87.2,86.5,145000,500000,Yes,4.0
+PCCOE Pune,Mechanical Engineering,Pune,86.5,85.7,85.0,140000,470000,Yes,4.0
+PCCOE Pune,Civil Engineering,Pune,85.5,84.7,84.0,140000,450000,Yes,4.0
+PCCOE Pune,Electrical Engineering,Pune,87.0,86.2,85.5,145000,480000,Yes,4.0
+MIT Pune,Computer Engineering,Pune,89.0,88.2,87.5,210000,530000,Yes,4.0
+MIT Pune,Information Technology,Pune,87.5,86.7,86.0,210000,500000,Yes,4.0
+MIT Pune,AIDS,Pune,88.5,87.7,87.0,220000,550000,Yes,4.0
+MIT Pune,AIML,Pune,88.2,87.4,86.7,220000,545000,Yes,4.0
+MIT Pune,Electronics & Telecom,Pune,86.5,85.7,85.0,200000,480000,Yes,4.0
+MIT Pune,Mechanical Engineering,Pune,85.0,84.2,83.5,195000,450000,Yes,4.0
+MIT Pune,Civil Engineering,Pune,84.0,83.2,82.5,195000,430000,Yes,4.0
+MIT Pune,Electrical Engineering,Pune,85.5,84.7,84.0,200000,460000,Yes,4.0
+SITS Pune,Computer Engineering,Pune,87.5,86.7,86.0,145000,490000,No,3.8
+SITS Pune,Information Technology,Pune,86.0,85.2,84.5,145000,460000,No,3.8
+SITS Pune,AIDS,Pune,87.0,86.2,85.5,155000,510000,No,3.8
+SITS Pune,AIML,Pune,86.7,85.9,85.2,155000,505000,No,3.8
+SITS Pune,Electronics & Telecom,Pune,85.0,84.2,83.5,135000,440000,No,3.8
+SITS Pune,Mechanical Engineering,Pune,83.5,82.7,82.0,130000,410000,No,3.8
+SITS Pune,Civil Engineering,Pune,82.5,81.7,81.0,130000,390000,No,3.8
+SITS Pune,Electrical Engineering,Pune,84.0,83.2,82.5,135000,420000,No,3.8
+NBN Sinhgad Pune,Computer Engineering,Pune,85.0,84.2,83.5,130000,460000,Yes,3.7
+NBN Sinhgad Pune,Information Technology,Pune,83.5,82.7,82.0,130000,430000,Yes,3.7
+NBN Sinhgad Pune,Electronics & Telecom,Pune,82.5,81.7,81.0,120000,410000,Yes,3.7
+NBN Sinhgad Pune,Mechanical Engineering,Pune,81.0,80.2,79.5,115000,380000,Yes,3.7
+NBN Sinhgad Pune,Civil Engineering,Pune,80.0,79.2,78.5,115000,360000,Yes,3.7
+NBN Sinhgad Pune,Electrical Engineering,Pune,81.5,80.7,80.0,120000,390000,Yes,3.7
+Symbiosis Pune,Computer Engineering,Pune,88.0,87.2,86.5,250000,540000,Yes,4.0
+Symbiosis Pune,Information Technology,Pune,86.5,85.7,85.0,250000,510000,Yes,4.0
+Symbiosis Pune,AIDS,Pune,87.5,86.7,86.0,260000,560000,Yes,4.0
+Symbiosis Pune,AIML,Pune,87.2,86.4,85.7,260000,555000,Yes,4.0
+Symbiosis Pune,Electronics & Telecom,Pune,85.5,84.7,84.0,240000,490000,Yes,4.0
+Symbiosis Pune,Mechanical Engineering,Pune,84.0,83.2,82.5,235000,460000,Yes,4.0
+Symbiosis Pune,Civil Engineering,Pune,83.0,82.2,81.5,235000,440000,Yes,4.0
+Symbiosis Pune,Electrical Engineering,Pune,84.5,83.7,83.0,240000,470000,Yes,4.0
+Indira Pune,Computer Engineering,Pune,83.0,82.2,81.5,140000,420000,No,3.6
+Indira Pune,Information Technology,Pune,81.5,80.7,80.0,140000,390000,No,3.6
+Indira Pune,Electronics & Telecom,Pune,80.5,79.7,79.0,130000,370000,No,3.6
+Indira Pune,Mechanical Engineering,Pune,79.0,78.2,77.5,125000,340000,No,3.6
+Indira Pune,Civil Engineering,Pune,78.0,77.2,76.5,125000,320000,No,3.6
+Indira Pune,Electrical Engineering,Pune,79.5,78.7,78.0,130000,350000,No,3.6
+JSPM Pune,Computer Engineering,Pune,82.0,81.2,80.5,135000,410000,Yes,3.6
+JSPM Pune,Information Technology,Pune,80.5,79.7,79.0,135000,380000,Yes,3.6
+JSPM Pune,Electronics & Telecom,Pune,79.5,78.7,78.0,125000,360000,Yes,3.6
+JSPM Pune,Mechanical Engineering,Pune,78.0,77.2,76.5,120000,330000,Yes,3.6
+JSPM Pune,Civil Engineering,Pune,77.0,76.2,75.5,120000,310000,Yes,3.6
+JSPM Pune,Electrical Engineering,Pune,78.5,77.7,77.0,125000,340000,Yes,3.6
+AISSMS Pune,Computer Engineering,Pune,86.0,85.2,84.5,150000,470000,No,3.8
+AISSMS Pune,Information Technology,Pune,84.5,83.7,83.0,150000,440000,No,3.8
+AISSMS Pune,AIDS,Pune,85.5,84.7,84.0,160000,490000,No,3.8
+AISSMS Pune,AIML,Pune,85.2,84.4,83.7,160000,485000,No,3.8
+AISSMS Pune,Electronics & Telecom,Pune,83.5,82.7,82.0,140000,420000,No,3.8
+AISSMS Pune,Mechanical Engineering,Pune,82.0,81.2,80.5,135000,390000,No,3.8
+AISSMS Pune,Civil Engineering,Pune,81.0,80.2,79.5,135000,370000,No,3.8
+AISSMS Pune,Electrical Engineering,Pune,82.5,81.7,81.0,140000,400000,No,3.8
+Bharati Vidyapeeth Pune,Computer Engineering,Pune,84.0,83.2,82.5,160000,440000,Yes,3.7
+Bharati Vidyapeeth Pune,Information Technology,Pune,82.5,81.7,81.0,160000,410000,Yes,3.7
+Bharati Vidyapeeth Pune,Electronics & Telecom,Pune,81.5,80.7,80.0,150000,390000,Yes,3.7
+Bharati Vidyapeeth Pune,Mechanical Engineering,Pune,80.0,79.2,78.5,145000,360000,Yes,3.7
+Bharati Vidyapeeth Pune,Civil Engineering,Pune,79.0,78.2,77.5,145000,340000,Yes,3.7
+Bharati Vidyapeeth Pune,Electrical Engineering,Pune,80.5,79.7,79.0,150000,370000,Yes,3.7
+RMD Sinhgad Pune,Computer Engineering,Pune,81.0,80.2,79.5,125000,400000,Yes,3.5
+RMD Sinhgad Pune,Information Technology,Pune,79.5,78.7,78.0,125000,370000,Yes,3.5
+RMD Sinhgad Pune,Electronics & Telecom,Pune,78.5,77.7,77.0,115000,350000,Yes,3.5
+RMD Sinhgad Pune,Mechanical Engineering,Pune,77.0,76.2,75.5,110000,320000,Yes,3.5
+RMD Sinhgad Pune,Civil Engineering,Pune,76.0,75.2,74.5,110000,300000,Yes,3.5
+RMD Sinhgad Pune,Electrical Engineering,Pune,77.5,76.7,76.0,115000,330000,Yes,3.5
+DYPIT Pune,Computer Engineering,Pune,80.0,79.2,78.5,130000,390000,No,3.5
+DYPIT Pune,Information Technology,Pune,78.5,77.7,77.0,130000,360000,No,3.5
+DYPIT Pune,Electronics & Telecom,Pune,77.5,76.7,76.0,120000,340000,No,3.5
+DYPIT Pune,Mechanical Engineering,Pune,76.0,75.2,74.5,115000,310000,No,3.5
+DYPIT Pune,Civil Engineering,Pune,75.0,74.2,73.5,115000,290000,No,3.5
+DYPIT Pune,Electrical Engineering,Pune,76.5,75.7,75.0,120000,320000,No,3.5
+GCOE Nagpur,Computer Engineering,Nagpur,88.5,87.7,87.0,75000,450000,Yes,4.0
+GCOE Nagpur,Information Technology,Nagpur,87.0,86.2,85.5,75000,420000,Yes,4.0
+GCOE Nagpur,AIDS,Nagpur,88.0,87.2,86.5,85000,470000,Yes,4.0
+GCOE Nagpur,AIML,Nagpur,87.7,86.9,86.2,85000,465000,Yes,4.0
+GCOE Nagpur,Electronics & Telecom,Nagpur,86.0,85.2,84.5,65000,400000,Yes,4.0
+GCOE Nagpur,Mechanical Engineering,Nagpur,84.5,83.7,83.0,60000,370000,Yes,4.0
+GCOE Nagpur,Civil Engineering,Nagpur,83.5,82.7,82.0,60000,350000,Yes,4.0
+GCOE Nagpur,Electrical Engineering,Nagpur,85.0,84.2,83.5,65000,380000,Yes,4.0
+YCCE Nagpur,Computer Engineering,Nagpur,86.0,85.2,84.5,110000,430000,Yes,3.9
+YCCE Nagpur,Information Technology,Nagpur,84.5,83.7,83.0,110000,400000,Yes,3.9
+YCCE Nagpur,AIDS,Nagpur,85.5,84.7,84.0,120000,450000,Yes,3.9
+YCCE Nagpur,AIML,Nagpur,85.2,84.4,83.7,120000,445000,Yes,3.9
+YCCE Nagpur,Electronics & Telecom,Nagpur,83.5,82.7,82.0,100000,380000,Yes,3.9
+YCCE Nagpur,Mechanical Engineering,Nagpur,82.0,81.2,80.5,95000,350000,Yes,3.9
+YCCE Nagpur,Civil Engineering,Nagpur,81.0,80.2,79.5,95000,330000,Yes,3.9
+YCCE Nagpur,Electrical Engineering,Nagpur,82.5,81.7,81.0,100000,360000,Yes,3.9
+KDK Nagpur,Computer Engineering,Nagpur,82.0,81.2,80.5,95000,400000,No,3.6
+KDK Nagpur,Information Technology,Nagpur,80.5,79.7,79.0,95000,370000,No,3.6
+KDK Nagpur,Electronics & Telecom,Nagpur,79.5,78.7,78.0,85000,350000,No,3.6
+KDK Nagpur,Mechanical Engineering,Nagpur,78.0,77.2,76.5,80000,320000,No,3.6
+KDK Nagpur,Civil Engineering,Nagpur,77.0,76.2,75.5,80000,300000,No,3.6
+KDK Nagpur,Electrical Engineering,Nagpur,78.5,77.7,77.0,85000,330000,No,3.6
+RCOEM Nagpur,Computer Engineering,Nagpur,87.5,86.7,86.0,120000,460000,Yes,4.0
+RCOEM Nagpur,Information Technology,Nagpur,86.0,85.2,84.5,120000,430000,Yes,4.0
+RCOEM Nagpur,AIDS,Nagpur,87.0,86.2,85.5,130000,480000,Yes,4.0
+RCOEM Nagpur,AIML,Nagpur,86.7,85.9,85.2,130000,475000,Yes,4.0
+RCOEM Nagpur,Electronics & Telecom,Nagpur,85.0,84.2,83.5,110000,410000,Yes,4.0
+RCOEM Nagpur,Mechanical Engineering,Nagpur,83.5,82.7,82.0,105000,380000,Yes,4.0
+RCOEM Nagpur,Civil Engineering,Nagpur,82.5,81.7,81.0,105000,360000,Yes,4.0
+RCOEM Nagpur,Electrical Engineering,Nagpur,84.0,83.2,82.5,110000,390000,Yes,4.0
+PCE Nagpur,Computer Engineering,Nagpur,83.5,82.7,82.0,100000,410000,No,3.7
+PCE Nagpur,Information Technology,Nagpur,82.0,81.2,80.5,100000,380000,No,3.7
+PCE Nagpur,Electronics & Telecom,Nagpur,81.0,80.2,79.5,90000,360000,No,3.7
+PCE Nagpur,Mechanical Engineering,Nagpur,79.5,78.7,78.0,85000,330000,No,3.7
+PCE Nagpur,Civil Engineering,Nagpur,78.5,77.7,77.0,85000,310000,No,3.7
+PCE Nagpur,Electrical Engineering,Nagpur,80.0,79.2,78.5,90000,340000,No,3.7
+BDCOE Nagpur,Computer Engineering,Nagpur,80.0,79.2,78.5,85000,380000,No,3.5
+BDCOE Nagpur,Information Technology,Nagpur,78.5,77.7,77.0,85000,350000,No,3.5
+BDCOE Nagpur,Electronics & Telecom,Nagpur,77.5,76.7,76.0,75000,330000,No,3.5
+BDCOE Nagpur,Mechanical Engineering,Nagpur,76.0,75.2,74.5,70000,300000,No,3.5
+BDCOE Nagpur,Civil Engineering,Nagpur,75.0,74.2,73.5,70000,280000,No,3.5
+BDCOE Nagpur,Electrical Engineering,Nagpur,76.5,75.7,75.0,75000,310000,No,3.5
+GHRCE Nagpur,Computer Engineering,Nagpur,81.5,80.7,80.0,90000,390000,No,3.5
+GHRCE Nagpur,Information Technology,Nagpur,80.0,79.2,78.5,90000,360000,No,3.5
+GHRCE Nagpur,Electronics & Telecom,Nagpur,79.0,78.2,77.5,80000,340000,No,3.5
+GHRCE Nagpur,Mechanical Engineering,Nagpur,77.5,76.7,76.0,75000,310000,No,3.5
+GHRCE Nagpur,Civil Engineering,Nagpur,76.5,75.7,75.0,75000,290000,No,3.5
+GHRCE Nagpur,Electrical Engineering,Nagpur,78.0,77.2,76.5,80000,320000,No,3.5
+Priyadarshini Nagpur,Computer Engineering,Nagpur,84.0,83.2,82.5,105000,420000,Yes,3.7
+Priyadarshini Nagpur,Information Technology,Nagpur,82.5,81.7,81.0,105000,390000,Yes,3.7
+Priyadarshini Nagpur,Electronics & Telecom,Nagpur,81.5,80.7,80.0,95000,370000,Yes,3.7
+Priyadarshini Nagpur,Mechanical Engineering,Nagpur,80.0,79.2,78.5,90000,340000,Yes,3.7
+Priyadarshini Nagpur,Civil Engineering,Nagpur,79.0,78.2,77.5,90000,320000,Yes,3.7
+Priyadarshini Nagpur,Electrical Engineering,Nagpur,80.5,79.7,79.0,95000,350000,Yes,3.7
+SSVPS Nashik,Computer Engineering,Nashik,82.0,81.2,80.5,80000,400000,Yes,3.6
+SSVPS Nashik,Information Technology,Nashik,80.5,79.7,79.0,80000,370000,Yes,3.6
+SSVPS Nashik,Electronics & Telecom,Nashik,79.5,78.7,78.0,70000,350000,Yes,3.6
+SSVPS Nashik,Mechanical Engineering,Nashik,78.0,77.2,76.5,65000,320000,Yes,3.6
+SSVPS Nashik,Civil Engineering,Nashik,77.0,76.2,75.5,65000,300000,Yes,3.6
+SSVPS Nashik,Electrical Engineering,Nashik,78.5,77.7,77.0,70000,330000,Yes,3.6
+KKWGH Nashik,Computer Engineering,Nashik,80.5,79.7,79.0,75000,380000,Yes,3.5
+KKWGH Nashik,Information Technology,Nashik,79.0,78.2,77.5,75000,350000,Yes,3.5
+KKWGH Nashik,Electronics & Telecom,Nashik,78.0,77.2,76.5,65000,330000,Yes,3.5
+KKWGH Nashik,Mechanical Engineering,Nashik,76.5,75.7,75.0,60000,300000,Yes,3.5
+KKWGH Nashik,Civil Engineering,Nashik,75.5,74.7,74.0,60000,280000,Yes,3.5
+KKWGH Nashik,Electrical Engineering,Nashik,77.0,76.2,75.5,65000,310000,Yes,3.5
+Amrutvahini Nashik,Computer Engineering,Nashik,79.0,78.2,77.5,70000,360000,Yes,3.4
+Amrutvahini Nashik,Information Technology,Nashik,77.5,76.7,76.0,70000,330000,Yes,3.4
+Amrutvahini Nashik,Electronics & Telecom,Nashik,76.5,75.7,75.0,60000,310000,Yes,3.4
+Amrutvahini Nashik,Mechanical Engineering,Nashik,75.0,74.2,73.5,55000,280000,Yes,3.4
+Amrutvahini Nashik,Civil Engineering,Nashik,74.0,73.2,72.5,55000,260000,Yes,3.4
+Amrutvahini Nashik,Electrical Engineering,Nashik,75.5,74.7,74.0,60000,290000,Yes,3.4
+NDMVPS Nashik,Computer Engineering,Nashik,81.0,80.2,79.5,85000,390000,No,3.5
+NDMVPS Nashik,Information Technology,Nashik,79.5,78.7,78.0,85000,360000,No,3.5
+NDMVPS Nashik,Electronics & Telecom,Nashik,78.5,77.7,77.0,75000,340000,No,3.5
+NDMVPS Nashik,Mechanical Engineering,Nashik,77.0,76.2,75.5,70000,310000,No,3.5
+NDMVPS Nashik,Civil Engineering,Nashik,76.0,75.2,74.5,70000,290000,No,3.5
+NDMVPS Nashik,Electrical Engineering,Nashik,77.5,76.7,76.0,75000,320000,No,3.5
+GEC Nashik,Computer Engineering,Nashik,85.0,84.2,83.5,65000,420000,Yes,3.8
+GEC Nashik,Information Technology,Nashik,83.5,82.7,82.0,65000,390000,Yes,3.8
+GEC Nashik,AIDS,Nashik,84.5,83.7,83.0,75000,440000,Yes,3.8
+GEC Nashik,AIML,Nashik,84.2,83.4,82.7,75000,435000,Yes,3.8
+GEC Nashik,Electronics & Telecom,Nashik,82.5,81.7,81.0,55000,370000,Yes,3.8
+GEC Nashik,Mechanical Engineering,Nashik,81.0,80.2,79.5,50000,340000,Yes,3.8
+GEC Nashik,Civil Engineering,Nashik,80.0,79.2,78.5,50000,320000,Yes,3.8
+GEC Nashik,Electrical Engineering,Nashik,81.5,80.7,80.0,55000,350000,Yes,3.8
+GCOE Aurangabad,Computer Engineering,Aurangabad,83.0,82.2,81.5,70000,400000,Yes,3.7
+GCOE Aurangabad,Information Technology,Aurangabad,81.5,80.7,80.0,70000,370000,Yes,3.7
+GCOE Aurangabad,Electronics & Telecom,Aurangabad,80.5,79.7,79.0,60000,350000,Yes,3.7
+GCOE Aurangabad,Mechanical Engineering,Aurangabad,79.0,78.2,77.5,55000,320000,Yes,3.7
+GCOE Aurangabad,Civil Engineering,Aurangabad,78.0,77.2,76.5,55000,300000,Yes,3.7
+GCOE Aurangabad,Electrical Engineering,Aurangabad,79.5,78.7,78.0,60000,330000,Yes,3.7
+MGM Aurangabad,Computer Engineering,Aurangabad,80.0,79.2,78.5,110000,370000,Yes,3.5
+MGM Aurangabad,Information Technology,Aurangabad,78.5,77.7,77.0,110000,340000,Yes,3.5
+MGM Aurangabad,Electronics & Telecom,Aurangabad,77.5,76.7,76.0,100000,320000,Yes,3.5
+MGM Aurangabad,Mechanical Engineering,Aurangabad,76.0,75.2,74.5,95000,290000,Yes,3.5
+MGM Aurangabad,Civil Engineering,Aurangabad,75.0,74.2,73.5,95000,270000,Yes,3.5
+MGM Aurangabad,Electrical Engineering,Aurangabad,76.5,75.7,75.0,100000,300000,Yes,3.5
+Deogiri Aurangabad,Computer Engineering,Aurangabad,78.0,77.2,76.5,85000,350000,No,3.4
+Deogiri Aurangabad,Information Technology,Aurangabad,76.5,75.7,75.0,85000,320000,No,3.4
+Deogiri Aurangabad,Electronics & Telecom,Aurangabad,75.5,74.7,74.0,75000,300000,No,3.4
+Deogiri Aurangabad,Mechanical Engineering,Aurangabad,74.0,73.2,72.5,70000,270000,No,3.4
+Deogiri Aurangabad,Civil Engineering,Aurangabad,73.0,72.2,71.5,70000,250000,No,3.4
+Deogiri Aurangabad,Electrical Engineering,Aurangabad,74.5,73.7,73.0,75000,280000,No,3.4
+BAMU Aurangabad,Computer Engineering,Aurangabad,76.0,75.2,74.5,60000,330000,Yes,3.3
+BAMU Aurangabad,Information Technology,Aurangabad,74.5,73.7,73.0,60000,300000,Yes,3.3
+BAMU Aurangabad,Electronics & Telecom,Aurangabad,73.5,72.7,72.0,50000,280000,Yes,3.3
+BAMU Aurangabad,Mechanical Engineering,Aurangabad,72.0,71.2,70.5,50000,250000,Yes,3.3
+BAMU Aurangabad,Civil Engineering,Aurangabad,71.0,70.2,69.5,50000,250000,Yes,3.3
+BAMU Aurangabad,Electrical Engineering,Aurangabad,72.5,71.7,71.0,50000,260000,Yes,3.3
+VESIT Thane,Computer Engineering,Thane,87.0,86.2,85.5,185000,490000,No,3.9
+VESIT Thane,Information Technology,Thane,85.5,84.7,84.0,185000,460000,No,3.9
+VESIT Thane,AIDS,Thane,86.5,85.7,85.0,195000,510000,No,3.9
+VESIT Thane,AIML,Thane,86.2,85.4,84.7,195000,505000,No,3.9
+VESIT Thane,Electronics & Telecom,Thane,84.5,83.7,83.0,175000,440000,No,3.9
+VESIT Thane,Mechanical Engineering,Thane,83.0,82.2,81.5,170000,410000,No,3.9
+VESIT Thane,Electrical Engineering,Thane,83.5,82.7,82.0,175000,420000,No,3.9
+Rajiv Gandhi Thane,Computer Engineering,Thane,83.0,82.2,81.5,155000,430000,No,3.6
+Rajiv Gandhi Thane,Information Technology,Thane,81.5,80.7,80.0,155000,400000,No,3.6
+Rajiv Gandhi Thane,Electronics & Telecom,Thane,80.5,79.7,79.0,145000,380000,No,3.6
+Rajiv Gandhi Thane,Mechanical Engineering,Thane,79.0,78.2,77.5,140000,350000,No,3.6
+Rajiv Gandhi Thane,Electrical Engineering,Thane,79.5,78.7,78.0,145000,360000,No,3.6
+Universal Thane,Computer Engineering,Thane,80.0,79.2,78.5,140000,390000,No,3.5
+Universal Thane,Information Technology,Thane,78.5,77.7,77.0,140000,360000,No,3.5
+Universal Thane,Electronics & Telecom,Thane,77.5,76.7,76.0,130000,340000,No,3.5
+Universal Thane,Mechanical Engineering,Thane,76.0,75.2,74.5,125000,310000,No,3.5
+Universal Thane,Electrical Engineering,Thane,76.5,75.7,75.0,130000,320000,No,3.5
+DKTE Kolhapur,Computer Engineering,Kolhapur,82.0,81.2,80.5,90000,400000,Yes,3.6
+DKTE Kolhapur,Information Technology,Kolhapur,80.5,79.7,79.0,90000,370000,Yes,3.6
+DKTE Kolhapur,Electronics & Telecom,Kolhapur,79.5,78.7,78.0,80000,350000,Yes,3.6
+DKTE Kolhapur,Mechanical Engineering,Kolhapur,78.0,77.2,76.5,75000,320000,Yes,3.6
+DKTE Kolhapur,Civil Engineering,Kolhapur,77.0,76.2,75.5,75000,300000,Yes,3.6
+DKTE Kolhapur,Electrical Engineering,Kolhapur,78.5,77.7,77.0,80000,330000,Yes,3.6
+KIT Kolhapur,Computer Engineering,Kolhapur,80.5,79.7,79.0,95000,380000,Yes,3.5
+KIT Kolhapur,Information Technology,Kolhapur,79.0,78.2,77.5,95000,350000,Yes,3.5
+KIT Kolhapur,Electronics & Telecom,Kolhapur,78.0,77.2,76.5,85000,330000,Yes,3.5
+KIT Kolhapur,Mechanical Engineering,Kolhapur,76.5,75.7,75.0,80000,300000,Yes,3.5
+KIT Kolhapur,Civil Engineering,Kolhapur,75.5,74.7,74.0,80000,280000,Yes,3.5
+KIT Kolhapur,Electrical Engineering,Kolhapur,77.0,76.2,75.5,85000,310000,Yes,3.5
+Shivaji University Kolhapur,Computer Engineering,Kolhapur,78.0,77.2,76.5,65000,350000,Yes,3.4
+Shivaji University Kolhapur,Information Technology,Kolhapur,76.5,75.7,75.0,65000,320000,Yes,3.4
+Shivaji University Kolhapur,Electronics & Telecom,Kolhapur,75.5,74.7,74.0,55000,300000,Yes,3.4
+Shivaji University Kolhapur,Mechanical Engineering,Kolhapur,74.0,73.2,72.5,50000,270000,Yes,3.4
+Shivaji University Kolhapur,Civil Engineering,Kolhapur,73.0,72.2,71.5,50000,250000,Yes,3.4
+Shivaji University Kolhapur,Electrical Engineering,Kolhapur,74.5,73.7,73.0,55000,280000,Yes,3.4
