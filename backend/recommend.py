@@ -43,16 +43,19 @@ def get_recommendations(percentile, branch,
     
     result = []
     for _, row in filtered.iterrows():
-        result.append({
-            "college_name": row['college_name'],
-            "branch": row['branch'],
-            "city": row['city'],
-            "cutoff_2023": row['cutoff_2023'],
-            "fees": int(row['fees']),
-            "avg_package": int(row['avg_package']),
-            "rating": row['rating'],
-            "score": round(row['final_score'], 2)
-        })
+       result.append({
+    "college_name": row['college_name'],
+    "branch": row['branch'],
+    "city": row['city'],
+    "cutoff_2023": row['cutoff_2023'],
+    "cutoff_2022": row['cutoff_2022'],  #
+    "cutoff_2021": row['cutoff_2021'],  # ADD THIS
+    "fees": int(row['fees']),
+    "avg_package": int(row['avg_package']),
+    "hostel": row['hostel'],
+    "rating": row['rating'],
+    "score": round(row['final_score'], 2)
+})
     
     return result
 
@@ -61,7 +64,8 @@ if __name__ == "__main__":
     percentile = float(sys.argv[1])
     branch     = sys.argv[2]
     city       = sys.argv[3] if len(sys.argv) > 3 else None
-    max_fees   = max_fees = int(sys.argv[4]) if len(sys.argv) > 4 and sys.argv[4] != '' else None
+    # Ye line dhundho
+    max_fees = int(sys.argv[4]) if len(sys.argv) > 4 and sys.argv[4] != '' else None
     priority   = sys.argv[5] if len(sys.argv) > 5 else 'placement'
     
     result = get_recommendations(percentile, branch, city, max_fees, priority)

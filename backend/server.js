@@ -24,13 +24,13 @@ app.post('/recommend', (req, res) => {
 
     // Python script call karo
     const args = [
-        path.join(__dirname, 'recommend.py'),
-        percentile,
-        branch,
-        city || '',
-        max_fees ? max_fees.toString() : '0',
-        priority || 'placement'
-    ];
+    path.join(__dirname, 'recommend.py'),
+    percentile,
+    branch,
+    city || '',
+    max_fees ? max_fees.toString() : '',
+    priority || 'placement'
+];
 
    const pythonCmd = process.platform === 'win32' ? 'py' : 'python3';
 const python = spawn(pythonCmd, args);
