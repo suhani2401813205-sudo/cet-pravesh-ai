@@ -56,9 +56,9 @@ function renderResults(branch) {
 
         // Cutoff trend bars
        // Cutoff trend bars
-const c21 = parseFloat(college.cutoff_2021) || 0;
-const c22 = parseFloat(college.cutoff_2022) || 0;
-const c23 = parseFloat(college.cutoff_2023) || 0;
+const c21 = parseFloat(college.cutoff_2022) || 0;
+const c22 = parseFloat(college.cutoff_2023) || 0;
+const c23 = parseFloat(college.cutoff_2024) || 0;
 const minC = Math.min(c21, c22, c23);
 const maxC = Math.max(c21, c22, c23);
 const range = (maxC - minC) || 1;
@@ -120,17 +120,17 @@ ${college.hostel === 'Yes' ? '<span class="meta-tag hostel-tag"><i class="fa-sol
                     <div class="trend-bar-wrap">
     <div class="trend-val">${c21 || 'N/A'}</div>
     <div class="trend-bar" style="height:${h21}px"></div>
-    <div class="trend-year">2021</div>
+    <div class="trend-year">2022</div>
 </div>
 <div class="trend-bar-wrap">
     <div class="trend-val">${c22 || 'N/A'}</div>
     <div class="trend-bar" style="height:${h22}px"></div>
-    <div class="trend-year">2022</div>
+    <div class="trend-year">2023</div>
 </div>
 <div class="trend-bar-wrap">
     <div class="trend-val current">${c23 || 'N/A'}</div>
     <div class="trend-bar current" style="height:${h23}px"></div>
-    <div class="trend-year">2023</div>
+    <div class="trend-year">2024</div>
 </div>
                 </div>
             </div>

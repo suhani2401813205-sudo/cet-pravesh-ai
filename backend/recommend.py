@@ -12,7 +12,7 @@ def get_recommendations(percentile, branch,
                          priority='placement'):
     
     filtered = df[df['branch'] == branch].copy()
-    filtered = filtered[filtered['cutoff_2023'] <= percentile]
+    filtered = filtered[filtered['cutoff_2024'] <= percentile]
     
     if city:
         filtered = filtered[filtered['city'] == city]
@@ -47,9 +47,9 @@ def get_recommendations(percentile, branch,
     "college_name": row['college_name'],
     "branch": row['branch'],
     "city": row['city'],
-    "cutoff_2023": row['cutoff_2023'],
-    "cutoff_2022": row['cutoff_2022'],  #
-    "cutoff_2021": row['cutoff_2021'],  # ADD THIS
+   "cutoff_2022": row['cutoff_2022'],
+"cutoff_2023": row['cutoff_2023'],
+"cutoff_2024": row['cutoff_2024'],  
     "fees": int(row['fees']),
     "avg_package": int(row['avg_package']),
     "hostel": row['hostel'],
