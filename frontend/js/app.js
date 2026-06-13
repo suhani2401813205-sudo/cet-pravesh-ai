@@ -258,7 +258,13 @@ function closeModal(e) {
 }
 
 function shareResults() {
-    const url = window.location.href;
+    const percentile = document.getElementById('percentile').value;
+    const branch = document.getElementById('branch').value;
+    const city = document.getElementById('city').value;
+    const priority = document.getElementById('priority').value;
+    
+    const url = `${window.location.origin}?percentile=${percentile}&branch=${encodeURIComponent(branch)}&city=${encodeURIComponent(city)}&priority=${priority}`;
+    
     navigator.clipboard.writeText(url).then(() => {
         const toast = document.getElementById('share-toast');
         toast.style.display = 'block';
@@ -278,3 +284,12 @@ function hideError() { document.getElementById('error').style.display = 'none'; 
 
 // Load bookmarks on start
 updateBookmarksUI();
+// URL parameters se auto-fill
+const params = new URLSearchParams(window.location.search);
+if (params.get('percentile')) {
+    document.getElementById('percentile').value = params.get('percentile');
+    document.getElementById('branch').value = params.get('branch') || '';
+    document.getElementById('city').value = params.get('city') || '';
+    document.getElementById('priority').value = params.get('priority') || 'placement';
+    getRecommendations();
+}
