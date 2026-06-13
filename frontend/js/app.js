@@ -33,12 +33,14 @@ async function getRecommendations() {
 
         allColleges = data.colleges;
        
-        if (allColleges.length === 0) { showError('No colleges found — try adjusting your criteria!'); return; }
-
+       if (allColleges.length === 0) { 
+    showError(`No colleges found for ${branch} in ${city || 'any city'} with ${percentile} percentile. Try: Higher percentile, Different city, or "Any City" option.`); 
+    return; 
+}
         renderResults(branch);
     } catch(err) {
         showLoading(false);
-        showError('Cannot connect to server — is server running?');
+       showError('No colleges found! Tips: Try higher percentile, select "Any City", or try different branch.');
     }
 }
 
